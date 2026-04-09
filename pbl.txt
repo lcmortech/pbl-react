@@ -2,4 +2,4 @@
 - Tic Tac Toe (Docs)
 - Blog
 - Project with Tailwind
-- ecommerce site
+- ecommerce site (skillup)
