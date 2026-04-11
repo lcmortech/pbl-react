@@ -7,12 +7,12 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0) //initiate as number bc its a counter
   // same as let count = 0
-
+// hero is a banner (ui component)
   return (
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
+          <img src={heroImg} className="base" width="170" height="179" alt="" /> 
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
