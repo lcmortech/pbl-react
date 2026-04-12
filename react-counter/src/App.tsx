@@ -8,6 +8,8 @@ function App() {
   const [count, setCount] = useState(0) //initiate as number bc its a counter
   // same as let count = 0
 // hero is a banner (ui component)
+// the function gets attached to the button (event listener + arrow function)
+//main component
   return (
     <>
       <section id="center">
