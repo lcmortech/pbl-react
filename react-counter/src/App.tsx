@@ -9,7 +9,7 @@ function App() {
   // same as let count = 0
 // hero is a banner (ui component)
 // the function gets attached to the button (event listener + arrow function)
-//main component
+//main component (entry point for whole application)
   return (
     <>
       <section id="center">
