@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0) //initiate as number bc its a counter
-  // same as let count = 0
+  // same as let count = 0, while setCount is the function, using the initial state 0
 // hero is a banner (ui component)
 // the function gets attached to the button (event listener + arrow function)
 //main component (entry point for whole application)
@@ -26,7 +26,7 @@ function App() {
         </div>
         <button
           className="counter"
-          onClick={() => setCount((count) => count + 1)}
+          onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount
         >
           Count is {count}
         </button>
