@@ -26,7 +26,7 @@ function App() {
         </div>
         <button
           className="counter"
-          onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount, increment variable count by 1
+          onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount, increment variable count by 1 val
         >
           Count is {count}
         </button>
