@@ -11,10 +11,11 @@ function App() {
 // the function gets attached to the button (event listener + arrow function)
 //main component (entry point for whole application)
 //refactor into props comp practice
+//hero ui
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div className="hero"> 
           <img src={heroImg} className="base" width="170" height="179" alt="" /> 
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
