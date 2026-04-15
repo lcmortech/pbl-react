@@ -10,7 +10,7 @@ function App() {
 // hero is a banner (ui component)
 // the function gets attached to the button (event listener + arrow function)
 //main component (entry point for whole application)
-//refactor into props practice
+//refactor into props comp practice
   return (
     <>
       <section id="center">
