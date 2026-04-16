@@ -12,6 +12,7 @@ function App() {
 //main component (entry point for whole application)
 //refactor into props comp practice
 //hero ui breakdown
+// counter breakdown
   return (
     <>
       <section id="center">
@@ -30,7 +31,7 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount, increment variable count by 1 val
         >
-          Count is {count}
+          Count is {count} 
         </button>
       </section>
 
