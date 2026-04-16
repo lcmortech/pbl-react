@@ -11,7 +11,7 @@ function App() {
 // the function gets attached to the button (event listener + arrow function)
 //main component (entry point for whole application)
 //refactor into props comp practice
-//hero ui
+//hero ui breakdown
   return (
     <>
       <section id="center">
