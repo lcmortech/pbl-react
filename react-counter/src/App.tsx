@@ -13,6 +13,7 @@ function App() {
 //refactor into props comp practice
 //hero ui breakdown
 // counter breakdown
+//refactor to react native (later)
   return (
     <>
       <section id="center">
