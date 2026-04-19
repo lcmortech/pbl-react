@@ -31,6 +31,7 @@ function App() {
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount, increment variable count by 1 val
+          //setCount also initialized here (arrow function)
         >
           Count is {count} 
         </button>
