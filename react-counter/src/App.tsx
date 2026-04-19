@@ -42,6 +42,7 @@ function App() {
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
+            {/* The aria-hidden="true" attribute tells assistive technologies (like screen readers) to ignore an element and its children, hiding them from users without affecting visual display */}
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Documentation</h2>
