@@ -16,6 +16,7 @@ function App() {
 //refactor to react native using expo (later)
   return (
     <>
+      <AppPrac />
       <section id="center">
         <div className="hero"> 
           <img src={heroImg} className="base" width="170" height="179" alt="" /> 

@@ -7,7 +7,7 @@ import './App.css';
 
 const AppPrac = () =>{
   return(
-    
+    <h1>hi</h1>
   )
 }
 
