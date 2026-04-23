@@ -6,6 +6,9 @@ import './App.css';
 
 
 const AppPrac = () =>{
+    //usestate goes at top of componnt
+    const [count, setCount] = useState(0)
+    
   return(
     <h1>hi</h1>
   )
