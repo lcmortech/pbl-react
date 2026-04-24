@@ -12,9 +12,9 @@ const AppPrac = () =>{
   return(
     <section id="center">
       <div className="hero">
-        <img src={heroImg} alt="" />
-        <img src={reactLogo} alt="" />
-        <img src={viteLogo} alt="" />
+        <img src="" alt={heroImg} className="base">
+        <img src="" alt={reactLogo} className="framework">
+        <img src="" alt={viteLogo} className="vite" /></img></img>
       </div>
     </section>
   )
