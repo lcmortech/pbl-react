@@ -10,6 +10,7 @@ const AppPrac = () =>{
     const [count, setCount] = useState(0)
     
   return(
+    <>
     <section id="center">
       <div className="hero">
         <img src="" alt={heroImg} className="base">
@@ -17,6 +18,7 @@ const AppPrac = () =>{
         <img src="" alt={viteLogo} className="vite" /></img></img>
       </div>
     </section>
+    </>
   )
 }
 
