@@ -17,6 +17,9 @@ const AppPrac = () =>{
         <img src="" alt={reactLogo} className="framework">
         <img src="" alt={viteLogo} className="vite" /></img></img>
       </div>
+      <div>
+        <h1>Get started!</h1>
+      </div>
     </section>
     </>
   )
