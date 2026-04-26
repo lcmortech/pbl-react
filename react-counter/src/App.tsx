@@ -19,6 +19,7 @@ const AppPrac = () =>{
       </div>
       <div>
         <h1>Get started!</h1>
+        <p>Edit</p>
       </div>
     </section>
     </>
