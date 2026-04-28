@@ -23,6 +23,7 @@ const AppPrac = () =>{
       </div>
       <button className="counter"
         onClick = {() => setCount((count) => count++)}>
+          Count is {count}
       </button>
     </section>
     </>
