@@ -25,6 +25,8 @@ const AppPrac = () =>{
         onClick = {() => setCount((count) => count++)}
         >
           Count is {count} 
+          {/* upon clicking the button, execute the function setCount, increment variable count by 1 val
+          setCount also initialized here (arrow function) */}
       </button>
     </section>
     <div className="ticks"></div>
