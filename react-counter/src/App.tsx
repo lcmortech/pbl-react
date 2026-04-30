@@ -32,7 +32,9 @@ const AppPrac = () =>{
     
     <div className="ticks"></div>
     <section id="next-steps">
-        <p>add later</p>
+        <div id="docs">
+          
+        </div>
       </section>
     </>
   )
