@@ -29,7 +29,11 @@ const AppPrac = () =>{
           setCount also initialized here (arrow function) */}
       </button>
     </section>
+    
     <div className="ticks"></div>
+    <section id="next-steps">
+        <p>add later</p>
+      </section>
     </>
   )
 }
