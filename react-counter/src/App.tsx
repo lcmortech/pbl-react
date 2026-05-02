@@ -33,7 +33,7 @@ const AppPrac = () =>{
     <div className="ticks"></div>
     <section id="next-steps">
         <div id="docs">
-          {/* insert next tags here */}
+          <svg className="icon" role="presentation" aria-hidden="true"></svg>
         </div>
       </section>
     </>
