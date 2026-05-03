@@ -26,7 +26,7 @@ const AppPrac = () =>{
         >
           Count is {count} 
           {/* upon clicking the button, execute the function setCount, increment variable count by 1 val
-          setCount also initialized here (w/ a arrow function) */}
+          setCount also initialized here (w/ a arrow function). */}
       </button>
     </section>
     
