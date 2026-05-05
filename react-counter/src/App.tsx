@@ -36,6 +36,7 @@ const AppPrac = () =>{
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
+          <h2>Connect with us</h2>
         </div>
       </section>
     </>
