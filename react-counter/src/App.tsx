@@ -33,7 +33,9 @@ const AppPrac = () =>{
     <div className="ticks"></div>
     <section id="next-steps">
         <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true"></svg>
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#social-icon"></use>
+          </svg>
         </div>
       </section>
     </>
