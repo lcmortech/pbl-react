@@ -37,7 +37,21 @@ const AppPrac = () =>{
             <use href="/icons.svg#social-icon"></use>
           </svg>
           <h2>Connect with us</h2>
-          <ul>{/*Social links go here*/}<ul>
+            <ul>{/*Social links go here*/}
+               <li>
+              <a href="https://github.com/vitejs/vite" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#github-icon"></use>
+                </svg>
+                GitHub
+              </a>
+            </li>
+            <li></li>
+            <ul>
         </div>
       </section>
     </>
