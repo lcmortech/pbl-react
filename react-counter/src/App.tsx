@@ -61,6 +61,18 @@ const AppPrac = () =>{
                 Discord
               </a>
             </li>
+            <li>
+              <a href="https://x.com/vite_js" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#x-icon"></use>
+                </svg>
+                X.com
+              </a>
+            </li>
             <ul>
         </div>
       </section>
