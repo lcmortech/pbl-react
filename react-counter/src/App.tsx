@@ -85,7 +85,7 @@ const AppPrac = () =>{
                 Bluesky
               </a>
             </li>
-            <ul>
+            </ul>
         </div>
       </section>
     </>
