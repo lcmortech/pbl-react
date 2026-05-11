@@ -6,7 +6,7 @@ import './App.css'
 
 
 const AppPrac = () =>{
-    //usestate goes at top of componnt
+    //usestate goes at top of component
     const [count, setCount] = useState(0)
     
   return(
