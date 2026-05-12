@@ -22,7 +22,7 @@ const AppPrac = () =>{
         <p>Edit <code>src/App.tsx</code>and save to test <code>HMR</code></p>
       </div>
       <button className="counter"
-        onClick = {()=> setCount((count)=> count++)} 
+        onClick = {()=> setCount(()=> count++)
         >
           Count is {count} 
           {/* upon clicking the button, execute the function setCount, increment variable count by 1 val
