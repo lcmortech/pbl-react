@@ -1,44 +1,76 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
-
-const AppPrac = () =>{
-    //usestate goes at top of component
-    const [count, setCount] = useState(0)
-    
-  return(
+function App() {
+  const [count, setCount] = useState(0) //initiate as number bc its a counter
+  // same as let count = 0, while setCount is the function, using the initial state 0
+// hero is a banner (ui component)
+// the function gets attached to the button (event listener + arrow function)
+//main component (entry point for whole application)
+//refactor into props comp practice
+//hero ui breakdown
+// counter breakdown
+//refactor to react native using expo (later)
+  return (
     <>
-    <section id="center">
-      <div className="hero">
-        <img src="" alt={heroImg} className="base">
-        <img src="" alt={reactLogo} className="framework">
-        <img src="" alt={viteLogo} className="vite" /></img></img>
-      </div>
-      <div>
-        <h1>Get started!</h1>
-        <p>Edit <code>src/App.tsx</code>and save to test <code>HMR</code></p>
-      </div>
-      <button className="counter"
-        onClick = {()=> setCount(count)=> count++)
+      <AppPrac />
+      <section id="center">
+        <div className="hero"> 
+          <img src={heroImg} className="base" width="170" height="179" alt="" /> 
+          <img src={reactLogo} className="framework" alt="React logo" />
+          <img src={viteLogo} className="vite" alt="Vite logo" />
+        </div>
+        <div>
+          <h1>Get started</h1>
+          <p>
+            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+          </p>
+        </div>
+        <button
+          className="counter"
+          onClick={() => setCount((count) => count + 1)} //upon clicking the button, execute the function setCount, increment variable count by 1 val
+          //setCount also initialized here (arrow function)
         >
           Count is {count} 
-          {/* upon clicking the button, execute the function setCount, increment variable count by 1 val
-          setCount also initialized here (w/ a arrow function). */}
-      </button>
-    </section>
-    
-    <div className="ticks"></div>
-    <section id="next-steps">
+        </button>
+      </section>
+
+      <div className="ticks"></div>
+
+      <section id="next-steps">
         <div id="docs">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            {/* The aria-hidden="true" attribute tells assistive technologies (like screen readers) to ignore an element and its children, hiding them from users without affecting visual display */}
+            <use href="/icons.svg#documentation-icon"></use>
+          </svg>
+          <h2>Documentation</h2>
+          <p>Your questions, answered</p>
+          <ul>
+            <li>
+              <a href="https://vite.dev/" target="_blank">
+                <img className="logo" src={viteLogo} alt="" />
+                Explore Vite
+              </a>
+            </li>
+            <li>
+              <a href="https://react.dev/" target="_blank">
+                <img className="button-icon" src={reactLogo} alt="" />
+                Learn more
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
           <h2>Connect with us</h2>
-            <ul>{/*Social links go here*/}
-               <li>
+          <p>Join the Vite community</p>
+          <ul>
+            <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
                 <svg
                   className="button-icon"
@@ -50,7 +82,8 @@ const AppPrac = () =>{
                 GitHub
               </a>
             </li>
-            <li><a href="https://chat.vite.dev/" target="_blank">
+            <li>
+              <a href="https://chat.vite.dev/" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -85,7 +118,7 @@ const AppPrac = () =>{
                 Bluesky
               </a>
             </li>
-            </ul>
+          </ul>
         </div>
       </section>
 
@@ -95,5 +128,4 @@ const AppPrac = () =>{
   )
 }
 
-export AppPrac;
-
+export default App
