@@ -5,7 +5,7 @@ const App = () =>{
    // [Current State, Setter Function] = useState(Initial State)
 const [counter, setCounter] = useState(0)
 const increment = () => setCounter(counter + 1)
-const decrement = () => setCounter(counter -1)
+const decrement = () => setCounter(counter - 1)
 
 return(
   <>
