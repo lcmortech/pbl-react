@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1>Tic-Tac-Toe Game</h1>
+      <h1>Tic-Tac-Toe Game (React Docs)</h1>
       {/* add grid */}
     </>
   )
