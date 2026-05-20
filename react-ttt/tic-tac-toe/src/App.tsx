@@ -1,8 +1,9 @@
 import {useState} from 'react';
 
-function Square({ value, onSquareClick }) {
-  return (
-    <h1>Tic Tac Toe</h1> 
-    //placeholder
-  );
-
+function Square({value, onSquareClick}){
+  return(
+    <button className="square" onClick={onSquareClick}>
+      {value}
+    </button>
+  )
+}
