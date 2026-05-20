@@ -1,5 +1,7 @@
 import {useState} from 'react';
 
 function Square({ value, onSquareClick }) {
-  return ();
+  return (
+    <h1>Tic Tac Toe</h1>
+  );
 
