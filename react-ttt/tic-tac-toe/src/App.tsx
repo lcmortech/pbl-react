@@ -7,3 +7,9 @@ function Square({value, onSquareClick}){
     </button>
   )
 }
+
+function Board({xIsNext}, squares, onPlay}){
+  return(
+
+  )
+}
