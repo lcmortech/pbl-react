@@ -7,5 +7,11 @@ function Square(){
 
 
 export default function Board(){
-  return <Square />
+  return (
+    <div className="board-row">
+      <Square />
+    </div>
+    <div className="board-row"></div>
+    <div className="board-row"></div>
+  )
 }
