@@ -5,6 +5,11 @@ function Square({ value }){
   function handClick() {
     console.log('clicked!')
   }
+  return(
+    <button className="square" onClick={handClick}>
+
+    </button>
+  )
 }
 
 
