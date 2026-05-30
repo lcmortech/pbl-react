@@ -2,10 +2,17 @@ import {useState} from 'react';
 
 
 function Square(){
+  //hooks
   const [value, setValue] = useState(null)
-  function handClick() {
-    console.log('clicked!')
+
+  //functions
+  // function handClick() {
+  //   console.log('clicked!')
+  // }
+  function handClick(){
+    setValue('X')
   }
+  //component return
   return(
     <button className="square" onClick={handClick}>
 
