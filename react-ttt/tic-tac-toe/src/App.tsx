@@ -6,15 +6,15 @@ function Square(){
   const [value, setValue] = useState(null)
 
   //functions
-  // function handClick() {
+  // function handleClick() {
   //   console.log('clicked!')
   // }
-  function handClick(){
+  function handleClick(){
     setValue('X')
   }
   //component return
   return(
-    <button className="square" onClick={handClick}>
+    <button className="square" onClick={handleClick}>
       {value}     
     </button>
   )
