@@ -15,7 +15,7 @@ function Square(){
   //component return
   return(
     <button className="square" onClick={handClick}>
-
+      {value}     
     </button>
   )
 }
