@@ -42,6 +42,8 @@ export default function Board(){
     </>
   )
 }
+
+//add next
 // export default function Board() {
 //   const [squares, setSquares] = useState(Array(9).fill(null));
 //   return (
