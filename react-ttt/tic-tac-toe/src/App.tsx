@@ -20,6 +20,14 @@ function Square(){
   )
 }
 
+//
+// function Square({ value, onSquareClick }) {
+//   return (
+//     <button className="square" onClick={onSquareClick}>
+//       {value}
+//     </button>
+//   );
+
 
 export default function Board(){
     return (
@@ -42,10 +50,3 @@ export default function Board(){
     </>
   )
 }
-
-//add next
-// export default function Board() {
-//   const [squares, setSquares] = useState(Array(9).fill(null));
-//   return (
-//     // ...
-//   );
