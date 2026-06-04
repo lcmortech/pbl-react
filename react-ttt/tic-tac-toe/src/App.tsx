@@ -29,6 +29,7 @@ function Square(){
 //   );
 
 //further examine
+//fix bugs
 export default function Board(){
     return (
     <>
