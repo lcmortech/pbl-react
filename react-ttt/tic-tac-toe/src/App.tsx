@@ -1,6 +1,6 @@
 //3 - Setup for the tutorial
 //6 - Building the board
-export default function Square(){
+export default function Board(){
   return( 
     <>
     <button className="square">1</button>
