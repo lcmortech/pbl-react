@@ -1,6 +1,10 @@
 //3 - Setup for the tutorial
 //6 - Building the board
 //7 - passing data through props
+
+function Square(){
+  return <button className="square">1</button>
+}
 export default function Board(){
   return( 
     <>
