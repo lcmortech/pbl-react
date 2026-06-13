@@ -1,6 +1,6 @@
 //3 - Setup for the tutorial
 //6 - Building the board
-//7 - passing data through props
+//7 - passing data through props (starting from default function)
 
 function Square({value}){
   return <button className="square">{value}</button>
