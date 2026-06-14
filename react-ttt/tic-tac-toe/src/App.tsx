@@ -1,7 +1,7 @@
 //3 - Setup for the tutorial
 //6 - Building the board
-//7 - passing data through props (starting from default function)
-
+//7 - Passing data through props (starting from default function)
+//8 - Making an interactive component
 function Square({value}){
 
   function handleClick(){
