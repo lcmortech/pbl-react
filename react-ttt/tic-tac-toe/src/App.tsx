@@ -1,8 +1,12 @@
+import React from "react"
+
 //3 - Setup for the tutorial
 //6 - Building the board
 //7 - Passing data through props (starting from default function)
 //8 - Making an interactive component
-function Square({value}){
+function Square(){
+
+  const [value, setValue] = useState(0)
 
   function handleClick(){
     console.log('clicked!')
