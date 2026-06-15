@@ -1,4 +1,4 @@
-import React from "react"
+import {useState} from 'react'
 
 //3 - Setup for the tutorial
 //6 - Building the board
