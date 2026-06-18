@@ -4,14 +4,14 @@ import {useState} from 'react'
 //6 - Building the board
 //7 - Passing data through props (starting from default function)
 //8 - Making an interactive component
-function Square(){
+function Square({value}){
 
   const [value, setValue] = useState(null)
 
   function handleClick(){
     setValue('X')
   }
-  return (<button className="square" onClick={handleClick}>{value}</button>)
+  return (<button className="square">{value}</button>)
 }
 export default function Board(){
   const [square, setSquare] = useState(Array(9).fill(null))
