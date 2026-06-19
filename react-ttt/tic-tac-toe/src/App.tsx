@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState} from 'react';
 
 //3 - Setup for the tutorial
 //6 - Building the board
@@ -8,9 +8,9 @@ function Square({value}){
 
   //const [value, setValue] = useState(null)
 
-  function handleClick(){
-    setValue('X')
-  }
+  // function handleClick(){
+  //   setValue('X')
+  // }
   return (<button className="square">{value}</button>)
 }
 export default function Board(){
