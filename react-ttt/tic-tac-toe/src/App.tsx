@@ -6,7 +6,7 @@ import {useState} from 'react'
 //8 - Making an interactive component
 function Square({value}){
 
-  const [value, setValue] = useState(null)
+  //const [value, setValue] = useState(null)
 
   function handleClick(){
     setValue('X')
