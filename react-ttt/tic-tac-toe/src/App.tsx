@@ -11,7 +11,7 @@ function Square({value}){
   // function handleClick(){
   //   setValue('X')
   // }
-  return (<button className="square">{value}</button>)
+  return (<button className="square" onClick={onSquareClick}>{value}</button>)
 }
 export default function Board(){
   const [square, setSquare] = useState(Array(9).fill(null))
