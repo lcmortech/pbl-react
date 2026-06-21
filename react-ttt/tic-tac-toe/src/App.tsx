@@ -4,7 +4,7 @@ import {useState} from 'react';
 //6 - Building the board
 //7 - Passing data through props (starting from default function)
 //8 - Making an interactive component
-function Square({value}){
+function Square({value, onSquareClick}){
 
   //const [value, setValue] = useState(null)
 
