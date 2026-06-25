@@ -7,6 +7,7 @@ import {useState} from 'react';
 //React Developer Tools
 //Completing the game
 //Lifting state up 
+//freeze test
 function Square({value, onSquareClick}){
 
   //const [value, setValue] = useState(null)
