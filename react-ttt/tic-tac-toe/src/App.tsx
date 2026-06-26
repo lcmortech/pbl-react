@@ -21,6 +21,7 @@ function Square({value, onSquareClick}){
 export default function Board(){
   const [square, setSquare] = useState(Array(9).fill(null))
 
+  // Now `squares` is ["X", null, null, null, null, null, null, null, null;
     function handleClick(i) {
     const nextSquares = square.slice();
     nextSquares[i] = "X";
