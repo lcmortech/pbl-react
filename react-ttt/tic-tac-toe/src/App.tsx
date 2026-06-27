@@ -19,6 +19,7 @@ function Square({value, onSquareClick}){
   return (<button className="square" onClick={onSquareClick}>{value}</button>)
 }
 export default function Board(){
+  const [xIsNext, setXIsNext] = useState(true)
   const [square, setSquare] = useState(Array(9).fill(null))
 
   // Now `squares` is ["X", null, null, null, null, null, null, null, null;
