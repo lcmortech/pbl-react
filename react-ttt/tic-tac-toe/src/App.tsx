@@ -30,7 +30,12 @@ export default function Board(){
     } 
       if (xIsNext) {
         nextSquares[i] = 'X';
-      }
+      } else {
+      nextSquares[i] = 'O';
+    }
+    setSquares(nextSquares);
+    setXIsNext(!xIsNext);
+    }
 
   return( 
     <>
