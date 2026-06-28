@@ -24,10 +24,13 @@ export default function Board(){
 
   // Now `squares` is ["X", null, null, null, null, null, null, null, null;
     function handleClick(i) {
-    const nextSquares = square.slice();
-    nextSquares[i] = "X";
-    setSquare(nextSquares);
-  }
+      const nextSquares = square.slice();
+      nextSquares[i] = "X";
+      setSquare(nextSquares);
+    } 
+      if (xIsNext) {
+        nextSquares[i] = 'X';
+      }
 
   return( 
     <>
