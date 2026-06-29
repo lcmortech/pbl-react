@@ -24,6 +24,9 @@ export default function Board(){
 
   // Now `squares` is ["X", null, null, null, null, null, null, null, null;
     function handleClick(i) {
+       if (squares[i] || calculateWinner(squares)) {
+      return;
+      }
       const nextSquares = square.slice();
       nextSquares[i] = "X";
       setSquare(nextSquares);
