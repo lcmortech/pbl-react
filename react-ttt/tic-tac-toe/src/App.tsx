@@ -9,6 +9,8 @@ import {useState} from 'react';
 //Lifting state up 
 //freeze test
 //Why immutability is important
+//Taking turns
+//Declaring a winner
 function Square({value, onSquareClick}){
 
   //const [value, setValue] = useState(null)
