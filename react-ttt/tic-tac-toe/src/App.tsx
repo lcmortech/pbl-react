@@ -11,6 +11,7 @@ import {useState} from 'react';
 //Why immutability is important
 //Taking turns
 //Declaring a winner
+// fix errors
 function Square({value, onSquareClick}){
 
   //const [value, setValue] = useState(null)
