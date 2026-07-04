@@ -11,7 +11,7 @@ import {useState} from 'react';
 //Why immutability is important
 //Taking turns
 //Declaring a winner
-// fix errors
+// fix errors (nextSquares)
 function Square({value, onSquareClick}){
 
   //const [value, setValue] = useState(null)
@@ -27,7 +27,7 @@ export default function Board(){
 
   // Now `squares` is ["X", null, null, null, null, null, null, null, null;
     function handleClick(i) {
-       if (squares[i] || calculateWinner(squares)) {
+       if (square[i] || calculateWinner(square)) {
       return;
       }
       const nextSquares = square.slice();
