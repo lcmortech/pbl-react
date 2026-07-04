@@ -27,9 +27,10 @@ export default function Board(){
 
   // Now `squares` is ["X", null, null, null, null, null, null, null, null;
     function handleClick(i) {
-       if (square[i] || calculateWinner(square)) {
+       if (square[i] || calcWin(square)) {
       return;
       }
+
       const nextSquares = square.slice();
       nextSquares[i] = "X";
       setSquare(nextSquares);
@@ -43,7 +44,7 @@ export default function Board(){
     setXIsNext(!xIsNext);
     }
 
-    const winner = calcWin(squares);
+    const winner = calcWin(square);
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
@@ -73,7 +74,7 @@ export default function Board(){
   )
 }
 
-function calcWin(squares{
+function calcWin(square{
     const lines = [
     [0, 1, 2],
     [3, 4, 5],
@@ -87,7 +88,7 @@ function calcWin(squares{
 
     for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
-    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+    if (square[a] && squares[a] === square[b] && square[a] === square[c]) {
       return squares[a];
     }
   }
