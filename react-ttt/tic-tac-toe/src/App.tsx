@@ -73,7 +73,7 @@ export default function Board(){
       </div>
       </>
   )
-}
+
 
 function calcWin(square{
     const lines = [
