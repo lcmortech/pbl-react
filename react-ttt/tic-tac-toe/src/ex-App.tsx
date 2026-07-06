@@ -72,7 +72,7 @@ export default function Board(){
         <Square value={square[8]} onSquareClick={() => handleClick(9)}/>
       </div>
       </>
-  )
+  )}
 
 
 function calcWin(square{
