@@ -11,7 +11,7 @@ import {useState} from 'react';
 //Why immutability is important
 //Taking turns
 //Declaring a winner
-//Adding Time Travel
+//Adding time travel
 // fix errors (nextSquares)
 //4th of july break
 function Square({value, onSquareClick}){
