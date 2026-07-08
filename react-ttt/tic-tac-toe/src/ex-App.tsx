@@ -12,6 +12,7 @@ import {useState} from 'react';
 //Taking turns
 //Declaring a winner
 //Adding time travel
+//Storing a history of moves
 // fix errors (nextSquares)
 //4th of july break
 function Square({value, onSquareClick}){
