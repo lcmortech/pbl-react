@@ -13,6 +13,7 @@ import {useState} from 'react';
 //Declaring a winner
 //Adding time travel
 //Storing a history of moves
+//Lifting state up, again
 // fix errors (nextSquares)
 //4th of july break
 function Square({value, onSquareClick}){
