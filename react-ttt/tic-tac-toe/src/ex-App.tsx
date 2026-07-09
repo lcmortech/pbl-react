@@ -14,6 +14,7 @@ import {useState} from 'react';
 //Adding time travel
 //Storing a history of moves
 //Lifting state up, again
+//Showing the past moves
 // fix errors (nextSquares)
 //4th of july break
 function Square({value, onSquareClick}){
