@@ -1,6 +1,13 @@
 import { useState } from "react";
 
-export default function Board() {
+export default function Square(){
+    return <button className="square">X</button>
+}
+
+
+
+
+function Board() {
   return (
     <>
     <div className="board-row">
