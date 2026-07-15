@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export default function Square(){
-    return <button className="square">X</button>
+export default function Square({value}){
+    return <button className="square">{value}</button>
 }
 
 
@@ -11,7 +11,7 @@ function Board() {
   return (
     <>
     <div className="board-row">
-        <Square />
+        <Square value="1" />
         <Square />
         <Square />
     </div>
