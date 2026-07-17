@@ -9,7 +9,7 @@ export default function Square({value}){
     setValue('X');
     console.log('clicked!');
   }
-    return (<button className="square">{value}</button>)
+    return (<button className="square" onClick={handleClick}>{value}</button>)
 }
 
 
