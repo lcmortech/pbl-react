@@ -3,7 +3,10 @@ import { useState } from "react";
 export default function Square({value}){
 
   const [value, setValue] = useState(null)
+
+  //changes Square to display an “X” when clicked
       function handleClick() {
+    setValue('X');
     console.log('clicked!');
   }
     return (<button className="square">{value}</button>)
