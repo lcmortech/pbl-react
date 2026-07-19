@@ -20,19 +20,19 @@ function Board() {
   return (
     <>
     <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
     </div>
     <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
     </div>
     <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
+        <Square value={squares[0]}/>
     </div>
     </>
   )
