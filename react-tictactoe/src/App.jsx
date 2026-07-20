@@ -17,6 +17,12 @@ export default function Square({value}){
 //Each Square has its own state: the value stored in each Square is completely independent of the others. When you call a set function in a component, React automatically updates the child components inside too.
 function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
+
+  function handleClick(i){
+    const nextSquares = squares.slice();
+    nextSquares[i] = 'X';
+    setSquares(nextSquares);
+  }
   return (
     <>
     <div className="board-row">
