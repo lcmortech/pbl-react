@@ -23,7 +23,9 @@ function Board() {
     const nextSquares = squares.slice();
     nextSquares[i] = 'X';
     setSquares(nextSquares);
+    setXIsNext(xIsNext);
   }
+
   return (
     <>
     <div className="board-row">
