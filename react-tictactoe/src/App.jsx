@@ -29,7 +29,6 @@ function Board() {
     setSquares(nextSquares);
     setXIsNext(xIsNext);
   }
-
   
 function calculateWinner(squares) {
   const lines = [
@@ -48,6 +47,7 @@ function calculateWinner(squares) {
       return squares[a];
     }
   }
+}
   return null;
 
   return (
