@@ -36,7 +36,7 @@ function Square({value}){
 
 
 //Each Square has its own state: the value stored in each Square is completely independent of the others. When you call a set function in a component, React automatically updates the child components inside too.
-function Board() {
+function Board({xIsNext, squares, onPlay}) {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
