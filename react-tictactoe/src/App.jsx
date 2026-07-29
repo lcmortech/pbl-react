@@ -13,7 +13,7 @@ export default function Game() {
     function jumpTo(nextMove) {
     // TODO
   }
-
+  //fix key error
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
